@@ -58,7 +58,7 @@ module tb_GPIO_core();
         .clk_i         (clk_i),
         .resetn_i      (resetn_i),
         .we_i          (we_i),
-        .select_io_i   (select_io_i),
+        .define_io_i   (select_io_i),
         .write_port_i  (write_port_i),
         .read_port_o   (read_port_o),
         .gpio_io       (gpio_io)
